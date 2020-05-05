@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+HTTP	网络/README.md	/^# HTTP$/;"	c
+Kafka	消息队列/mafka.md	/^# Kafka$/;"	c
+ThreadFactory扩展点	java/基础/线程池.md	/^## ThreadFactory扩展点$/;"	s
+ThreadPoolExecutor扩展点	java/基础/线程池.md	/^## ThreadPoolExecutor扩展点$/;"	s
+jetty	framework/tomcat&jetty/README.md	/^## jetty$/;"	s
+jetty&tomcat	framework/tomcat&jetty/README.md	/^# jetty&tomcat$/;"	c
+jetty和netty的\b关系	framework/tomcat&jetty/README.md	/^### jetty和netty的关系$/;"	S
+link链接	消息队列/mafka.md	/^## link链接$/;"	s
+tomcat	framework/tomcat&jetty/README.md	/^## tomcat$/;"	s
+以人为本	README.md	/^# 以人为本$/;"	c
+参考	java/基础/线程池.md	/^# 参考$/;"	c
+参考值	java/基础/线程池.md	/^## 参考值$/;"	s
+如何设置参数	java/基础/线程池.md	/^# 如何设置参数$/;"	c
+得出数据	java/基础/线程池.md	/^## 得出数据$/;"	s
+扩展	java/基础/线程池.md	/^# 扩展$/;"	c
+构建社会主义和谐社会	README.md	/^# 构建社会主义和谐社会$/;"	c
+比较	framework/tomcat&jetty/README.md	/^## 比较$/;"	s
+线程池参数	java/基础/线程池.md	/^# 线程池参数$/;"	c
+问题	framework/spring/README.md	/^### 问题$/;"	S
+问题	java/基础/线程池.md	/^## 问题$/;"	s
+问题	消息队列/mafka.md	/^## 问题$/;"	s
+默认值	java/基础/线程池.md	/^## 默认值$/;"	s
