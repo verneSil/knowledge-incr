@@ -6,25 +6,197 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+7. Class.forName()，在jvm中都发生了什么	java/JVM/README.md	/^7. Class.forName()，在jvm中都发生了什么$/;"	c
+AIO	java/基础/IO.md	/^# AIO$/;"	c
+AOP	面试题目汇总/阿里P7面试.md	/^#### AOP$/;"	t
+AioClient	java/基础/IO/aio/AioClient.java	/^    public AioClient(String host, int port) {$/;"	m	class:AioClient
+AioClient	java/基础/IO/aio/AioClient.java	/^public class AioClient {$/;"	c
+AioHandler	java/基础/IO/aio/AioHandler.java	/^public class AioHandler implements CompletionHandler<AsynchronousSocketChannel, AioServer> {$/;"	c
+AioServer	java/基础/IO/aio/AioServer.java	/^    public AioServer(int port) {$/;"	m	class:AioServer
+AioServer	java/基础/IO/aio/AioServer.java	/^public class AioServer {$/;"	c
+Allocation of Old Generation of Java Heap on Alternate Memory Devices	java/基础/java高版本特性.md	/^#### Allocation of Old Generation of Java Heap on Alternate Memory Devices$/;"	t
+BIO	java/基础/IO.md	/^# BIO$/;"	c
+BUF_SIZE	java/基础/IO/nio/ServerConnect.java	/^    private static final int BUF_SIZE = 1024;$/;"	f	class:ServerConnect	file:
+Base64	java/基础/java高版本特性.md	/^#### Base64$/;"	t
+CMS收集器	java/JVM/垃圾收集算法.md	/^## CMS收集器$/;"	s
+ChaCha20 and Poly1305 Cryptographic Algorithms	java/基础/java高版本特性.md	/^#### ChaCha20 and Poly1305 Cryptographic Algorithms$/;"	t
+Client	java/基础/IO/bio/Client.java	/^public class Client {$/;"	c
+Date/Time API	java/基础/java高版本特性.md	/^#### Date\/Time API$/;"	t
+Dubbo	面试题目汇总/阿里P7面试.md	/^## Dubbo$/;"	s
+EchoClientHandler	java/基础/IO/bio/Server.java	/^        public EchoClientHandler(Socket client) {$/;"	m	class:Server.EchoClientHandler
+EchoClientHandler	java/基础/IO/bio/Server.java	/^    private static class EchoClientHandler implements Runnable {$/;"	c	class:Server
+Epsilon, A No-Op Garbage Collector	java/基础/java高版本特性.md	/^#### Epsilon, A No-Op Garbage Collector$/;"	t
+FileChannelTest	java/基础/IO/nio/FileChannelTest.java	/^public class FileChannelTest {$/;"	c
+G1收集器	java/JVM/垃圾收集算法.md	/^## G1收集器$/;"	s
+G1设为默认的垃圾回收器	java/基础/java高版本特性.md	/^#### G1设为默认的垃圾回收器$/;"	t
 HTTP	网络/README.md	/^# HTTP$/;"	c
+HTTP	面试题目汇总/阿里P7面试.md	/^#### HTTP$/;"	t
+HTTP Client (Standard)	java/基础/java高版本特性.md	/^#### HTTP Client (Standard)$/;"	t
+HTTP/2	java/基础/java高版本特性.md	/^#### HTTP\/2$/;"	t
+IOC / DI	面试题目汇总/阿里P7面试.md	/^#### IOC \/ DI$/;"	t
+JDK11(LTS)	java/基础/java高版本特性.md	/^## JDK11(LTS)$/;"	s
+JDK12	java/基础/java高版本特性.md	/^## JDK12$/;"	s
+JDK13	java/基础/java高版本特性.md	/^## JDK13$/;"	s
+JDK14	java/基础/java高版本特性.md	/^## JDK14$/;"	s
+JDK8	java/基础/java高版本特性.md	/^## JDK8$/;"	s
+JDK9	java/基础/java高版本特性.md	/^## JDK9$/;"	s
+JShell	java/基础/java高版本特性.md	/^#### JShell$/;"	t
+JVM	面试题目汇总/阿里P7面试.md	/^#### JVM$/;"	t
+Java动态代理	java/基础/代理&注解&反射.md	/^#### Java动态代理$/;"	t
+Java基础	面试题目汇总/阿里P7面试.md	/^## Java基础$/;"	s
 Kafka	消息队列/mafka.md	/^# Kafka$/;"	c
+Lambda表达式与Functional接口	java/基础/java高版本特性.md	/^#### Lambda表达式与Functional接口$/;"	t
+Lazy Allocation of Compiler Threads(-XX:+UseDynamicNumberOfCompilerThreads)	java/基础/java高版本特性.md	/^#### Lazy Allocation of Compiler Threads(-XX:+UseDynamicNumberOfCompilerThreads)$/;"	t
+Linux	面试题目汇总/阿里P7面试.md	/^## Linux$/;"	s
+Low-Overhead Heap Profiling	java/基础/java高版本特性.md	/^#### Low-Overhead Heap Profiling$/;"	t
+MQ	面试题目汇总/阿里P7面试.md	/^## MQ$/;"	s
+Metaspace	java/基础/java高版本特性.md	/^#### Metaspace$/;"	t
+Mybatis	面试题目汇总/阿里P7面试.md	/^## Mybatis$/;"	s
+Mysql	面试题目汇总/阿里P7面试.md	/^## Mysql$/;"	s
+NIO	java/基础/IO.md	/^# NIO$/;"	c
+Optional	java/基础/java高版本特性.md	/^#### Optional$/;"	t
+Optional Class Enhancements	java/基础/java高版本特性.md	/^#### Optional Class Enhancements$/;"	t
+PORT	java/基础/IO/nio/ServerConnect.java	/^    private static final int PORT = 8080;$/;"	f	class:ServerConnect	file:
+ParNew收集器	java/JVM/垃圾收集算法.md	/^## ParNew收集器$/;"	s
+ParScavenge收集器	java/JVM/垃圾收集算法.md	/^## ParScavenge收集器$/;"	s
+Parallel Old 收集器	java/JVM/垃圾收集算法.md	/^## Parallel Old 收集器$/;"	s
+Redis	面试题目汇总/阿里P7面试.md	/^## Redis$/;"	s
+Removal of Thread.destroy() and Thread.stop(Throwable) Methods	java/基础/java高版本特性.md	/^#### Removal of Thread.destroy() and Thread.stop(Throwable) Methods$/;"	t
+SPI如何破坏的	java/JVM/双亲委托机制.md	/^##### SPI如何破坏的$/;"	T
+Serial Old 收集器	java/JVM/垃圾收集算法.md	/^## Serial Old 收集器$/;"	s
+Serial收集器	java/JVM/垃圾收集算法.md	/^## Serial收集器$/;"	s
+Server	java/基础/IO/bio/Server.java	/^public class Server {$/;"	c
+ServerConnect	java/基础/IO/nio/ServerConnect.java	/^public class ServerConnect {$/;"	c
+SocketChannelTest	java/基础/IO/nio/SocketChannelTest.java	/^public class SocketChannelTest {$/;"	c
+Spring	面试题目汇总/阿里P7面试.md	/^## Spring$/;"	s
+Spring Boot	面试题目汇总/阿里P7面试.md	/^#### Spring Boot$/;"	t
+Spring Cloud	面试题目汇总/阿里P7面试.md	/^#### Spring Cloud$/;"	t
+SpringMVC	面试题目汇总/阿里P7面试.md	/^#### SpringMVC$/;"	t
+Stream	java/基础/java高版本特性.md	/^#### Stream$/;"	t
+Stream API Enhancements	java/基础/java高版本特性.md	/^#### Stream API Enhancements$/;"	t
+Support for Unicode 11	java/基础/java高版本特性.md	/^#### Support for Unicode 11$/;"	t
+TCP/UDP	面试题目汇总/阿里P7面试.md	/^#### TCP\/UDP$/;"	t
+TIMEOUT	java/基础/IO/nio/ServerConnect.java	/^    private static final int TIMEOUT = 3000;$/;"	f	class:ServerConnect	file:
+Test	java/基础/IO/zeroCopy/Test.java	/^public class Test {$/;"	c
 ThreadFactory扩展点	java/基础/线程池.md	/^## ThreadFactory扩展点$/;"	s
+ThreadPoolExecutor Should Not Specify a Dependency on Finalization	java/基础/java高版本特性.md	/^#### ThreadPoolExecutor Should Not Specify a Dependency on Finalization$/;"	t
 ThreadPoolExecutor扩展点	java/基础/线程池.md	/^## ThreadPoolExecutor扩展点$/;"	s
+Transport Layer Security (TLS) 1.3	java/基础/java高版本特性.md	/^#### Transport Layer Security (TLS) 1.3$/;"	t
+Unicode 10	java/基础/java高版本特性.md	/^#### Unicode 10$/;"	t
+ZAB	系统设计/ZooKeeper/ZAB协议.md	/^# ZAB$/;"	c
+ZGC A Scalable Low-Latency Garbage Collector (Experimental)	java/基础/java高版本特性.md	/^#### ZGC A Scalable Low-Latency Garbage Collector (Experimental)$/;"	t
+ZGC Concurrent Class Unloading	java/基础/java高版本特性.md	/^#### ZGC Concurrent Class Unloading$/;"	t
+ZGC Maximum Heap Size Increased to 16TB	java/基础/java高版本特性.md	/^#### ZGC Maximum Heap Size Increased to 16TB$/;"	t
+ZGC Uncommit Unused Memory	java/基础/java高版本特性.md	/^#### ZGC Uncommit Unused Memory$/;"	t
+Zookeeper	面试题目汇总/阿里P7面试.md	/^## Zookeeper$/;"	s
+\b多线程问题	java/基础/线程问题.md	/^# 多线程问题$/;"	c
+cglib代理	java/基础/代理&注解&反射.md	/^#### cglib代理$/;"	t
+client	java/基础/IO/bio/Server.java	/^        private Socket client;$/;"	f	class:Server.EchoClientHandler	file:
+clientChannel	java/基础/IO/aio/AioClient.java	/^    private AsynchronousSocketChannel clientChannel;$/;"	f	class:AioClient	file:
+com.meituan.mqclienttest.io.aio	java/基础/IO/aio/AioClient.java	/^package com.meituan.mqclienttest.io.aio;$/;"	p
+com.meituan.mqclienttest.io.aio	java/基础/IO/aio/AioHandler.java	/^package com.meituan.mqclienttest.io.aio;$/;"	p
+com.meituan.mqclienttest.io.aio	java/基础/IO/aio/AioServer.java	/^package com.meituan.mqclienttest.io.aio;$/;"	p
+com.meituan.mqclienttest.io.bio	java/基础/IO/bio/Client.java	/^package com.meituan.mqclienttest.io.bio;$/;"	p
+com.meituan.mqclienttest.io.bio	java/基础/IO/bio/Server.java	/^package com.meituan.mqclienttest.io.bio;$/;"	p
+com.meituan.mqclienttest.io.nio	java/基础/IO/nio/FileChannelTest.java	/^package com.meituan.mqclienttest.io.nio;$/;"	p
+com.meituan.mqclienttest.io.nio	java/基础/IO/nio/ServerConnect.java	/^package com.meituan.mqclienttest.io.nio;$/;"	p
+com.meituan.mqclienttest.io.nio	java/基础/IO/nio/SocketChannelTest.java	/^package com.meituan.mqclienttest.io.nio;$/;"	p
+com.meituan.mqclienttest.io.zeroCopy	java/基础/IO/zeroCopy/Test.java	/^package com.meituan.mqclienttest.io.zeroCopy;$/;"	p
+completed	java/基础/IO/aio/AioHandler.java	/^    public void completed(AsynchronousSocketChannel result, AioServer attachment) {$/;"	m	class:AioHandler
+doDestory	java/基础/IO/aio/AioClient.java	/^    public void doDestory() {$/;"	m	class:AioClient
+doRead	java/基础/IO/aio/AioClient.java	/^    public void doRead() {$/;"	m	class:AioClient
+doRead	java/基础/IO/aio/AioHandler.java	/^    private void doRead(AsynchronousSocketChannel clientChannel) {$/;"	m	class:AioHandler	file:
+doWrite	java/基础/IO/aio/AioClient.java	/^    public void doWrite(String line) {$/;"	m	class:AioClient
+doWrite	java/基础/IO/aio/AioHandler.java	/^    private void doWrite(AsynchronousSocketChannel clientChannel) {$/;"	m	class:AioHandler	file:
+failed	java/基础/IO/aio/AioHandler.java	/^    public void failed(Throwable exc, AioServer attachment) {$/;"	m	class:AioHandler
+flag	java/基础/IO/bio/Server.java	/^        private boolean flag = true;$/;"	f	class:Server.EchoClientHandler	file:
+getServerChannel	java/基础/IO/aio/AioServer.java	/^    public AsynchronousServerSocketChannel getServerChannel() {$/;"	m	class:AioServer
+getService	java/基础/IO/aio/AioServer.java	/^    public ExecutorService getService() {$/;"	m	class:AioServer
+handleAccept	java/基础/IO/nio/ServerConnect.java	/^    public static void handleAccept(SelectionKey key) throws IOException {$/;"	m	class:ServerConnect
+handleRead	java/基础/IO/nio/ServerConnect.java	/^    public static void handleRead(SelectionKey key) throws IOException {$/;"	m	class:ServerConnect
+handleWrite	java/基础/IO/nio/ServerConnect.java	/^    public static void handleWrite(SelectionKey key) throws IOException {$/;"	m	class:ServerConnect
+init	java/基础/IO/aio/AioClient.java	/^    private void init(String host, int port) {$/;"	m	class:AioClient	file:
+init	java/基础/IO/aio/AioServer.java	/^    private void init(int port) {$/;"	m	class:AioServer	file:
 jetty	framework/tomcat&jetty/README.md	/^## jetty$/;"	s
 jetty&tomcat	framework/tomcat&jetty/README.md	/^# jetty&tomcat$/;"	c
 jetty和netty的\b关系	framework/tomcat&jetty/README.md	/^### jetty和netty的关系$/;"	S
+leader选举算法	系统设计/ZooKeeper/ZAB协议.md	/^### leader选举算法$/;"	S
 link链接	消息队列/mafka.md	/^## link链接$/;"	s
+main	java/基础/IO/aio/AioClient.java	/^    public static void main(String[] args) {$/;"	m	class:AioClient
+main	java/基础/IO/aio/AioServer.java	/^    public static void main(String[] args) {$/;"	m	class:AioServer
+main	java/基础/IO/bio/Client.java	/^    public static void main(String[] args) throws Exception {$/;"	m	class:Client
+main	java/基础/IO/bio/Server.java	/^    public static void main(String[] args) throws Exception {$/;"	m	class:Server
+main	java/基础/IO/nio/FileChannelTest.java	/^    public static void main(String[] args) throws IOException {$/;"	m	class:FileChannelTest
+main	java/基础/IO/nio/ServerConnect.java	/^    public static void main(String[] args) {$/;"	m	class:ServerConnect
+main	java/基础/IO/nio/SocketChannelTest.java	/^    public static void main(String[] args) throws IOException, InterruptedException {$/;"	m	class:SocketChannelTest
+main	java/基础/IO/zeroCopy/Test.java	/^    public static void main(String[] args) throws IOException {$/;"	m	class:Test
+out	java/基础/IO/bio/Server.java	/^        private PrintStream out;$/;"	f	class:Server.EchoClientHandler	file:
+run	java/基础/IO/bio/Server.java	/^        public void run() {$/;"	m	class:Server.EchoClientHandler
+scanner	java/基础/IO/bio/Server.java	/^        private Scanner scanner;$/;"	f	class:Server.EchoClientHandler	file:
+selector	java/基础/IO/nio/ServerConnect.java	/^    public static void selector() {$/;"	m	class:ServerConnect
+serverChannel	java/基础/IO/aio/AioServer.java	/^    private AsynchronousServerSocketChannel serverChannel;$/;"	f	class:AioServer	file:
+service	java/基础/IO/aio/AioServer.java	/^    private ExecutorService service;$/;"	f	class:AioServer	file:
 tomcat	framework/tomcat&jetty/README.md	/^## tomcat$/;"	s
+不可变集合工厂方法	java/基础/java高版本特性.md	/^#### 不可变集合工厂方法$/;"	t
+事务	面试题目汇总/阿里P7面试.md	/^#### 事务$/;"	t
+代理	java/基础/代理&注解&反射.md	/^# 代理$/;"	c
 以人为本	README.md	/^# 以人为本$/;"	c
+优化	java/基础/代理&注解&反射.md	/^### 优化$/;"	S
+分布式	面试题目汇总/阿里P7面试.md	/^## 分布式$/;"	s
+协议内容	系统设计/ZooKeeper/ZAB协议.md	/^## 协议内容$/;"	s
 参考	java/基础/线程池.md	/^# 参考$/;"	c
 参考值	java/基础/线程池.md	/^## 参考值$/;"	s
+双亲委托机制	java/JVM/双亲委托机制.md	/^## 双亲委托机制$/;"	s
+反射	java/基础/代理&注解&反射.md	/^# 反射$/;"	c
+团队管理	管理经验/团队.md	/^# 团队管理$/;"	c
+场景优化	面试题目汇总/阿里P7面试.md	/^#### 场景优化$/;"	t
+场景题	面试题目汇总/阿里P7面试.md	/^## 场景题$/;"	s
+基本类型	java/基础/Java类型.md	/^## 基本类型$/;"	s
+基础	面试题目汇总/阿里P7面试.md	/^#### 基础$/;"	t
 如何设置参数	java/基础/线程池.md	/^# 如何设置参数$/;"	c
+存储	面试题目汇总/阿里P7面试.md	/^## 存储$/;"	s
+存储引擎	面试题目汇总/阿里P7面试.md	/^#### 存储引擎$/;"	t
+安全	面试题目汇总/阿里P7面试.md	/^## 安全$/;"	s
+定义	java/基础/代理&注解&反射.md	/^### 定义$/;"	S
+容器隔离	java/JVM/双亲委托机制.md	/^##### 容器隔离$/;"	T
+崩溃恢复	系统设计/ZooKeeper/ZAB协议.md	/^## 崩溃恢复$/;"	s
+工具	面试题目汇总/阿里P7面试.md	/^## 工具$/;"	s
+并发	面试题目汇总/阿里P7面试.md	/^#### 并发$/;"	t
+并发包优化	java/基础/java高版本特性.md	/^#### 并发包优化$/;"	t
+应用场景	java/基础/代理&注解&反射.md	/^### 应用场景$/;"	S
+开放问题	面试题目汇总/阿里P7面试.md	/^## 开放问题$/;"	s
+引用类型	java/基础/Java类型.md	/^## 引用类型$/;"	s
 得出数据	java/基础/线程池.md	/^## 得出数据$/;"	s
+执行/解释	面试题目汇总/阿里P7面试.md	/^#### 执行\/解释$/;"	t
 扩展	java/基础/线程池.md	/^# 扩展$/;"	c
+扩展	面试题目汇总/阿里P7面试.md	/^#### 扩展$/;"	t
+扩展注解的支持	java/基础/java高版本特性.md	/^#### 扩展注解的支持$/;"	t
+接口默认方法	java/基础/java高版本特性.md	/^#### 接口默认方法$/;"	t
+文件	java/基础/IO.md	/^# 文件$/;"	c
+更好的类型推测机制	java/基础/java高版本特性.md	/^#### 更好的类型推测机制$/;"	t
 构建社会主义和谐社会	README.md	/^# 构建社会主义和谐社会$/;"	c
+架构	面试题目汇总/阿里P7面试.md	/^#### 架构$/;"	t
 比较	framework/tomcat&jetty/README.md	/^## 比较$/;"	s
+注解	java/基础/代理&注解&反射.md	/^# 注解$/;"	c
+消息广播	系统设计/ZooKeeper/ZAB协议.md	/^## 消息广播$/;"	s
+热部署，模块化	java/JVM/双亲委托机制.md	/^##### 热部署，模块化$/;"	T
+破坏双亲委托机制	java/JVM/双亲委托机制.md	/^### 破坏双亲委托机制$/;"	S
+私有接口方法	java/基础/java高版本特性.md	/^#### 私有接口方法$/;"	t
+简介	系统设计/ZooKeeper/ZAB协议.md	/^## 简介$/;"	s
+算法	面试题目汇总/阿里P7面试.md	/^## 算法$/;"	s
+类加载	java/JVM/双亲委托机制.md	/^## 类加载$/;"	s
+系统架构	面试题目汇总/阿里P7面试.md	/^## 系统架构$/;"	s
+索引	面试题目汇总/阿里P7面试.md	/^#### 索引$/;"	t
 线程池参数	java/基础/线程池.md	/^# 线程池参数$/;"	c
+网络	面试题目汇总/阿里P7面试.md	/^## 网络$/;"	s
+脑裂	系统设计/ZooKeeper/ZAB协议.md	/^### 脑裂$/;"	S
+计算机基础	面试题目汇总/阿里P7面试.md	/^## 计算机基础$/;"	s
+设计模式	面试题目汇总/阿里P7面试.md	/^## 设计模式$/;"	s
+重复注解	java/基础/java高版本特性.md	/^#### 重复注解$/;"	t
+锁	面试题目汇总/阿里P7面试.md	/^#### 锁$/;"	t
 问题	framework/spring/README.md	/^### 问题$/;"	S
 问题	java/基础/线程池.md	/^## 问题$/;"	s
 问题	消息队列/mafka.md	/^## 问题$/;"	s
+问题列表	java/基础/线程问题.md	/^## 问题列表$/;"	s
+集合相关	面试题目汇总/阿里P7面试.md	/^#### 集合相关$/;"	t
 默认值	java/基础/线程池.md	/^## 默认值$/;"	s
