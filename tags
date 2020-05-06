@@ -6,7 +6,6 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
-7. Class.forName()，在jvm中都发生了什么	java/JVM/README.md	/^7. Class.forName()，在jvm中都发生了什么$/;"	c
 AIO	java/基础/IO.md	/^# AIO$/;"	c
 AOP	面试题目汇总/阿里P7面试.md	/^#### AOP$/;"	t
 AioClient	java/基础/IO/aio/AioClient.java	/^    public AioClient(String host, int port) {$/;"	m	class:AioClient
