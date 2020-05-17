@@ -7,18 +7,18 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
 1\\. 前言	java/基础/并发编程之——读锁源码分析(解释关于锁降级的争议) - 莫那-鲁道 - 博客园.md	/^## 1\\. 前言$/;"	s
-3.1 Java对象头	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 3.1 Java对象头$/;"	s
-3.2 对象头中Mark Word与线程中Lock Record	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 3.2 对象头中Mark Word与线程中Lock Record$/;"	s
-3.3 监视器（Monitor）	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 3.3 监视器（Monitor）$/;"	s
+3.1 Java对象头	java/基础/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 3.1 Java对象头$/;"	s
+3.2 对象头中Mark Word与线程中Lock Record	java/基础/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 3.2 对象头中Mark Word与线程中Lock Record$/;"	s
+3.3 监视器（Monitor）	java/基础/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 3.3 监视器（Monitor）$/;"	s
 3\\. 锁降级的争议	java/基础/并发编程之——读锁源码分析(解释关于锁降级的争议) - 莫那-鲁道 - 博客园.md	/^## 3\\. 锁降级的争议$/;"	s
-4.1 自旋锁	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.1 自旋锁$/;"	s
-4.2 适应性自旋锁	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.2 适应性自旋锁$/;"	s
-4.3 锁消除	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.3 锁消除$/;"	s
-4.4 锁粗化	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.4 锁粗化$/;"	s
-4.5 偏向锁	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.5 偏向锁$/;"	s
-4.6 轻量级锁	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.6 轻量级锁$/;"	s
-4.7 重量级锁	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.7 重量级锁$/;"	s
-4.8 重量级锁、轻量级锁和偏向锁之间转换	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.8 重量级锁、轻量级锁和偏向锁之间转换$/;"	s
+4.1 自旋锁	java/基础/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.1 自旋锁$/;"	s
+4.2 适应性自旋锁	java/基础/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.2 适应性自旋锁$/;"	s
+4.3 锁消除	java/基础/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.3 锁消除$/;"	s
+4.4 锁粗化	java/基础/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.4 锁粗化$/;"	s
+4.5 偏向锁	java/基础/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.5 偏向锁$/;"	s
+4.6 轻量级锁	java/基础/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.6 轻量级锁$/;"	s
+4.7 重量级锁	java/基础/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.7 重量级锁$/;"	s
+4.8 重量级锁、轻量级锁和偏向锁之间转换	java/基础/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.8 重量级锁、轻量级锁和偏向锁之间转换$/;"	s
 5\\. 总结	java/基础/并发编程之——读锁源码分析(解释关于锁降级的争议) - 莫那-鲁道 - 博客园.md	/^## 5\\. 总结$/;"	s
 <a id="t1"></a>基础知识之一：锁的类型	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t1"><\/a>基础知识之一：锁的类型$/;"	S
 <a id="t10"></a>总结	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## <a id="t10"><\/a>总结$/;"	s
@@ -204,7 +204,7 @@ tomcat	framework/tomcat&jetty/README.md	/^## tomcat$/;"	s
 反射	java/基础/代理&注解&反射.md	/^# 反射$/;"	c
 团队管理	管理经验/团队.md	/^# 团队管理$/;"	c
 场景优化	面试题目汇总/阿里P7面试.md	/^#### 场景优化$/;"	t
-场景和办法	java/Mysql/实战经验.md	/^### 场景和办法$/;"	S
+场景和办法	数据存储/Mysql/实战经验.md	/^### 场景和办法$/;"	S
 场景题	面试题目汇总/阿里P7面试.md	/^## 场景题$/;"	s
 基本类型	java/基础/Java类型.md	/^## 基本类型$/;"	s
 基础	面试题目汇总/阿里P7面试.md	/^#### 基础$/;"	t
@@ -243,8 +243,8 @@ tomcat	framework/tomcat&jetty/README.md	/^## tomcat$/;"	s
 求最大值最小值[#](#1113f6)	java/基础/lambda的使用.md	/^##### 求最大值最小值[#](#1113f6)$/;"	T
 泛型	java/基础/泛型.md	/^# 泛型$/;"	c
 注解	java/基础/代理&注解&反射.md	/^# 注解$/;"	c
-测试一：事务隔离级别：RR	java/Mysql/Innodb锁机制：Next-Key Lock 浅谈_数据库_qiuyepiaoling的专栏-CSDN博客.md	/^## 测试一：事务隔离级别：RR$/;"	s
-测试二：	java/Mysql/Innodb锁机制：Next-Key Lock 浅谈_数据库_qiuyepiaoling的专栏-CSDN博客.md	/^## 测试二：$/;"	s
+测试一：事务隔离级别：RR	数据存储/Mysql/Innodb锁机制：Next-Key Lock 浅谈_数据库_qiuyepiaoling的专栏-CSDN博客.md	/^## 测试一：事务隔离级别：RR$/;"	s
+测试二：	数据存储/Mysql/Innodb锁机制：Next-Key Lock 浅谈_数据库_qiuyepiaoling的专栏-CSDN博客.md	/^## 测试二：$/;"	s
 消息广播	系统设计/ZooKeeper/ZAB协议.md	/^## 消息广播$/;"	s
 热部署，模块化	java/JVM/双亲委托机制.md	/^##### 热部署，模块化$/;"	T
 理解锁的基础知识	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## 理解锁的基础知识$/;"	s
@@ -254,7 +254,7 @@ tomcat	framework/tomcat&jetty/README.md	/^## tomcat$/;"	s
 算法	面试题目汇总/阿里P7面试.md	/^## 算法$/;"	s
 类加载	java/JVM/双亲委托机制.md	/^## 类加载$/;"	s
 系统架构	面试题目汇总/阿里P7面试.md	/^## 系统架构$/;"	s
-索引	java/Mysql/实战经验.md	/^## 索引$/;"	s
+索引	数据存储/Mysql/实战经验.md	/^## 索引$/;"	s
 索引	面试题目汇总/阿里P7面试.md	/^#### 索引$/;"	t
 线程池参数	java/基础/线程池.md	/^# 线程池参数$/;"	c
 网络	面试题目汇总/阿里P7面试.md	/^## 网络$/;"	s
@@ -276,7 +276,7 @@ tomcat	framework/tomcat&jetty/README.md	/^## tomcat$/;"	s
 问题	java/基础/线程池.md	/^## 问题$/;"	s
 问题	消息队列/mafka.md	/^## 问题$/;"	s
 问题列表	java/基础/线程问题.md	/^## 问题列表$/;"	s
-问题：	java/Mysql/Innodb锁机制：Next-Key Lock 浅谈_数据库_qiuyepiaoling的专栏-CSDN博客.md	/^#### 问题：$/;"	t
+问题：	数据存储/Mysql/Innodb锁机制：Next-Key Lock 浅谈_数据库_qiuyepiaoling的专栏-CSDN博客.md	/^#### 问题：$/;"	t
 集合判空遍历操作[#](#9a78be)	java/基础/lambda的使用.md	/^##### 集合判空遍历操作[#](#9a78be)$/;"	T
 集合相关	面试题目汇总/阿里P7面试.md	/^#### 集合相关$/;"	t
 默认值	java/基础/线程池.md	/^## 默认值$/;"	s

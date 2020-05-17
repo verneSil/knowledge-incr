@@ -37,7 +37,7 @@ package com.paddx.test.concurrent; public class SynchronizedDemo { public void m
 
 查看反编译后结果：
 
-<img width="848" height="526" src="../../_resources/21f234966d794fafb2b0a4518669922c.png"/>
+<img width="848" height="526" src="../_resources/21f234966d794fafb2b0a4518669922c.png"/>
 
 反编译结果
 
@@ -63,7 +63,7 @@ package com.paddx.test.concurrent; public class SynchronizedMethod { public sync
 
 查看反编译后结果：
 
-<img width="848" height="296" src="../../_resources/c8ea5caa808d4241b5561871aadbd8eb.png"/>
+<img width="848" height="296" src="../_resources/c8ea5caa808d4241b5561871aadbd8eb.png"/>
 
 反编译结果 
 
@@ -77,7 +77,7 @@ package com.paddx.test.concurrent; public class SynchronizedMethod { public sync
 
 在JVM中**，对象在内存中的布局分为三块区域：对象头、实例数据和对齐填充。**如下图所示：
 
-<img width="848" height="424" src="../../_resources/a094276afeeb4cc29c19c392c90b525f.png"/> 
+<img width="848" height="424" src="../_resources/a094276afeeb4cc29c19c392c90b525f.png"/> 
 
 1.  实例数据：存放类的属性数据信息，包括父类的属性信息；
 2.  对齐填充：由于虚拟机要求 对象起始地址必须是8字节的整数倍。填充数据不是必须存在的，仅仅是为了字节对齐；
@@ -111,7 +111,7 @@ Mark Word可能存储4种数据
 
 对象头的最后两位存储了锁的标志位，01是初始状态，未加锁，其对象头里存储的是对象本身的哈希码，随着锁级别的不同，对象头里会存储不同的内容。偏向锁存储的是当前占用此对象的线程ID；而轻量级则存储指向线程栈中锁记录的指针。从这里我们可以看到，“锁”这个东西，可能是个锁记录+对象头里的引用指针（判断线程是否拥有锁时将线程的锁记录地址和对象头里的指针地址比较)，也可能是对象头里的线程ID（判断线程是否拥有锁时将线程的ID和对象头里存储的线程ID比较）。
 
-<img width="848" height="214" src="../../_resources/7d381ce51f7b4a7d94a3f9c7087862f1.png"/>
+<img width="848" height="214" src="../_resources/7d381ce51f7b4a7d94a3f9c7087862f1.png"/>
 
 HotSpot虚拟机对象头Mark Word
 
@@ -299,7 +299,7 @@ SMP（对称多处理器）架构
 > 
 > 注意：此处将 当前线程挂起再恢复的过程中并没有发生锁的转移，仍然在当前线程手中，只是穿插了个 “将对象头中的线程ID变更为指向锁记录地址的指针” 这么个事。
 
-<img width="848" height="950" src="../../_resources/bd7cd72f1d394e72b73ce0a649ef5e8b.png"/>
+<img width="848" height="950" src="../_resources/bd7cd72f1d394e72b73ce0a649ef5e8b.png"/>
 
 偏向锁的获取和释放过程
 
@@ -309,7 +309,7 @@ SMP（对称多处理器）架构
 
 1.  在线程进入同步块时，如果同步对象锁状态为无锁状态（锁标志位为“01”状态，是否为偏向锁为“0”），虚拟机首先将在当前线程的栈帧中建立一个名为锁记录（Lock Record）的空间，用于存储锁对象目前的Mark Word的拷贝，官方称之为 Displaced Mark Word。此时线程堆栈与对象头的状态如下图所示：
     
-    <img width="808" height="382" src="../../_resources/91d8313f95c34f838d5d1b78304c2f01.png"/>
+    <img width="808" height="382" src="../_resources/91d8313f95c34f838d5d1b78304c2f01.png"/>
     
     轻量级锁CAS操作之前线程堆栈与对象的状态
     
@@ -319,7 +319,7 @@ SMP（对称多处理器）架构
     
 4.  如果这个更新动作成功了，那么当前线程就拥有了该对象的锁，并且对象Mark Word的锁标志位设置为“00”，即表示此对象处于轻量级锁定状态，此时线程堆栈与对象头的状态如下图所示：
     
-    <img width="808" height="541" src="../../_resources/87ae4c4481b0412798f022b2882deb77.png"/>
+    <img width="808" height="541" src="../_resources/87ae4c4481b0412798f022b2882deb77.png"/>
     
     轻量级锁CAS操作之后线程堆栈与对象的状态
     
@@ -334,7 +334,7 @@ SMP（对称多处理器）架构
 
 对于轻量级锁，其性能提升的依据是 “对于绝大部分的锁，在整个生命周期内都是不会存在竞争的”，如果打破这个依据则除了互斥的开销外，还有额外的CAS操作，因此在有多线程竞争的情况下，轻量级锁比重量级锁更慢。
 
-<img width="848" height="823" src="../../_resources/82ec6fb7ec274b868af26f7c9d3efd6e.png"/>
+<img width="848" height="823" src="../_resources/82ec6fb7ec274b868af26f7c9d3efd6e.png"/>
 
 轻量级锁的获取和释放过程
 
@@ -359,11 +359,11 @@ Synchronized是通过对象内部的一个叫做 监视器锁（Monitor）来�
 
 ## 4.8 重量级锁、轻量级锁和偏向锁之间转换
 
-<img width="848" height="400" src="../../_resources/ef0d2d7a905847bf971427eb3d6f060d.png"/>
+<img width="848" height="400" src="../_resources/ef0d2d7a905847bf971427eb3d6f060d.png"/>
 
 重量级锁、轻量级锁和偏向锁之间转换
 
-<img width="848" height="1004" src="../../_resources/7bc7c9d3e177422f937d66f86eea1586.png"/>
+<img width="848" height="1004" src="../_resources/7bc7c9d3e177422f937d66f86eea1586.png"/>
 
 Synchronized偏向锁、轻量级锁及重量级锁转换流程
 
