@@ -6,6 +6,40 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+1\\. 前言	java/基础/并发编程之——读锁源码分析(解释关于锁降级的争议) - 莫那-鲁道 - 博客园.md	/^## 1\\. 前言$/;"	s
+3.1 Java对象头	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 3.1 Java对象头$/;"	s
+3.2 对象头中Mark Word与线程中Lock Record	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 3.2 对象头中Mark Word与线程中Lock Record$/;"	s
+3.3 监视器（Monitor）	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 3.3 监视器（Monitor）$/;"	s
+3\\. 锁降级的争议	java/基础/并发编程之——读锁源码分析(解释关于锁降级的争议) - 莫那-鲁道 - 博客园.md	/^## 3\\. 锁降级的争议$/;"	s
+4.1 自旋锁	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.1 自旋锁$/;"	s
+4.2 适应性自旋锁	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.2 适应性自旋锁$/;"	s
+4.3 锁消除	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.3 锁消除$/;"	s
+4.4 锁粗化	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.4 锁粗化$/;"	s
+4.5 偏向锁	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.5 偏向锁$/;"	s
+4.6 轻量级锁	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.6 轻量级锁$/;"	s
+4.7 重量级锁	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.7 重量级锁$/;"	s
+4.8 重量级锁、轻量级锁和偏向锁之间转换	java/待整理/杂记-待整理/深入分析Synchronized原理(阿里面试题) - aspirant - 博客园.md	/^## 4.8 重量级锁、轻量级锁和偏向锁之间转换$/;"	s
+5\\. 总结	java/基础/并发编程之——读锁源码分析(解释关于锁降级的争议) - 莫那-鲁道 - 博客园.md	/^## 5\\. 总结$/;"	s
+<a id="t1"></a>基础知识之一：锁的类型	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t1"><\/a>基础知识之一：锁的类型$/;"	S
+<a id="t10"></a>总结	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## <a id="t10"><\/a>总结$/;"	s
+<a id="t12"></a>减少锁的时间	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## <a id="t12"><\/a>减少锁的时间$/;"	s
+<a id="t13"></a>减少锁的粒度	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## <a id="t13"><\/a>减少锁的粒度$/;"	s
+<a id="t14"></a>ConcurrentHashMap	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t14"><\/a>ConcurrentHashMap$/;"	S
+<a id="t15"></a>LongAdder	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t15"><\/a>LongAdder$/;"	S
+<a id="t16"></a>LinkedBlockingQueue	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t16"><\/a>LinkedBlockingQueue$/;"	S
+<a id="t17"></a>锁粗化	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## <a id="t17"><\/a>锁粗化$/;"	s
+<a id="t18"></a>使用读写锁	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## <a id="t18"><\/a>使用读写锁$/;"	s
+<a id="t19"></a>读写分离	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## <a id="t19"><\/a>读写分离$/;"	s
+<a id="t2"></a>基础知识之二：java线程阻塞的代价	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t2"><\/a>基础知识之二：java线程阻塞的代价$/;"	S
+<a id="t20"></a>使用cas	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## <a id="t20"><\/a>使用cas$/;"	s
+<a id="t21"></a>消除缓存行的伪共享	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## <a id="t21"><\/a>消除缓存行的伪共享$/;"	s
+<a id="t3"></a>基础知识之三：markword	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t3"><\/a>基础知识之三：markword$/;"	S
+<a id="t4"></a>小结	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t4"><\/a>小结$/;"	S
+<a id="t5"></a>java中的锁	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## <a id="t5"><\/a>java中的锁$/;"	s
+<a id="t6"></a>自旋锁	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t6"><\/a>自旋锁$/;"	S
+<a id="t7"></a>重量级锁Synchronized	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t7"><\/a>重量级锁Synchronized$/;"	S
+<a id="t8"></a>偏向锁	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t8"><\/a>偏向锁$/;"	S
+<a id="t9"></a>轻量级锁	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^### <a id="t9"><\/a>轻量级锁$/;"	S
 AIO	java/基础/IO.md	/^# AIO$/;"	c
 AOP	面试题目汇总/阿里P7面试.md	/^#### AOP$/;"	t
 AioClient	java/基础/IO/aio/AioClient.java	/^    public AioClient(String host, int port) {$/;"	m	class:AioClient
@@ -47,6 +81,7 @@ Kafka	消息队列/mafka.md	/^# Kafka$/;"	c
 Lambda表达式与Functional接口	java/基础/java高版本特性.md	/^#### Lambda表达式与Functional接口$/;"	t
 Lazy Allocation of Compiler Threads(-XX:+UseDynamicNumberOfCompilerThreads)	java/基础/java高版本特性.md	/^#### Lazy Allocation of Compiler Threads(-XX:+UseDynamicNumberOfCompilerThreads)$/;"	t
 Linux	面试题目汇总/阿里P7面试.md	/^## Linux$/;"	s
+List 转换 Map,key 冲突处理[#](#52250d)	java/基础/lambda的使用.md	/^##### List 转换 Map,key 冲突处理[#](#52250d)$/;"	T
 Low-Overhead Heap Profiling	java/基础/java高版本特性.md	/^#### Low-Overhead Heap Profiling$/;"	t
 MQ	面试题目汇总/阿里P7面试.md	/^## MQ$/;"	s
 Metaspace	java/基础/java高版本特性.md	/^#### Metaspace$/;"	t
@@ -74,6 +109,8 @@ SpringMVC	面试题目汇总/阿里P7面试.md	/^#### SpringMVC$/;"	t
 Stream	java/基础/java高版本特性.md	/^#### Stream$/;"	t
 Stream API Enhancements	java/基础/java高版本特性.md	/^#### Stream API Enhancements$/;"	t
 Support for Unicode 11	java/基础/java高版本特性.md	/^#### Support for Unicode 11$/;"	t
+Synchronized的作用	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^#### Synchronized的作用$/;"	t
+Synchronized的实现	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^#### Synchronized的实现$/;"	t
 TCP/UDP	面试题目汇总/阿里P7面试.md	/^#### TCP\/UDP$/;"	t
 TIMEOUT	java/基础/IO/nio/ServerConnect.java	/^    private static final int TIMEOUT = 3000;$/;"	f	class:ServerConnect	file:
 Test	java/基础/IO/zeroCopy/Test.java	/^public class Test {$/;"	c
@@ -117,9 +154,11 @@ handleRead	java/基础/IO/nio/ServerConnect.java	/^    public static void handle
 handleWrite	java/基础/IO/nio/ServerConnect.java	/^    public static void handleWrite(SelectionKey key) throws IOException {$/;"	m	class:ServerConnect
 init	java/基础/IO/aio/AioClient.java	/^    private void init(String host, int port) {$/;"	m	class:AioClient	file:
 init	java/基础/IO/aio/AioServer.java	/^    private void init(int port) {$/;"	m	class:AioServer	file:
+java 基础	java/基础/java 基础.md	/^# java 基础$/;"	c
 jetty	framework/tomcat&jetty/README.md	/^## jetty$/;"	s
 jetty&tomcat	framework/tomcat&jetty/README.md	/^# jetty&tomcat$/;"	c
 jetty和netty的\b关系	framework/tomcat&jetty/README.md	/^### jetty和netty的关系$/;"	S
+jvm开启/关闭偏向锁	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^#### jvm开启\/关闭偏向锁$/;"	t
 leader选举算法	系统设计/ZooKeeper/ZAB协议.md	/^### leader选举算法$/;"	S
 link链接	消息队列/mafka.md	/^## link链接$/;"	s
 main	java/基础/IO/aio/AioClient.java	/^    public static void main(String[] args) {$/;"	m	class:AioClient
@@ -138,18 +177,34 @@ serverChannel	java/基础/IO/aio/AioServer.java	/^    private AsynchronousServer
 service	java/基础/IO/aio/AioServer.java	/^    private ExecutorService service;$/;"	f	class:AioServer	file:
 tomcat	framework/tomcat&jetty/README.md	/^## tomcat$/;"	s
 不可变集合工厂方法	java/基础/java高版本特性.md	/^#### 不可变集合工厂方法$/;"	t
+不能构建泛型数组	java/基础/java 基础.md	/^## 不能构建泛型数组$/;"	s
+不能构建泛型数组	java/基础/泛型.md	/^## 不能构建泛型数组$/;"	s
+乐观锁	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^#### 乐观锁$/;"	t
 事务	面试题目汇总/阿里P7面试.md	/^#### 事务$/;"	t
 代理	java/基础/代理&注解&反射.md	/^# 代理$/;"	c
 以人为本	README.md	/^# 以人为本$/;"	c
 优化	java/基础/代理&注解&反射.md	/^### 优化$/;"	S
+偏向锁的实现	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^#### 偏向锁的实现$/;"	t
+偏向锁的适用场景	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^#### 偏向锁的适用场景$/;"	t
+偏向锁的释放：	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^##### 偏向锁的释放：$/;"	T
+偏向锁获取过程：	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^##### 偏向锁获取过程：$/;"	T
 分布式	面试题目汇总/阿里P7面试.md	/^## 分布式$/;"	s
+分组归类[#](#99f250)	java/基础/lambda的使用.md	/^##### 分组归类[#](#99f250)$/;"	T
+判空异常操作[#](#434a0c)	java/基础/lambda的使用.md	/^##### 判空异常操作[#](#434a0c)$/;"	T
+判空操作[#](#4afa91)	java/基础/lambda的使用.md	/^##### 判空操作[#](#4afa91)$/;"	T
+匹配任何一个则返回[#](#9ae11e)	java/基础/lambda的使用.md	/^##### 匹配任何一个则返回[#](#9ae11e)$/;"	T
+匹配所有[#](#e593c0)	java/基础/lambda的使用.md	/^##### 匹配所有[#](#e593c0)$/;"	T
+匹配符合条件的第一个元素[#](#25f054)	java/基础/lambda的使用.md	/^##### 匹配符合条件的第一个元素[#](#25f054)$/;"	T
+匿名内部类[#](#510624)	java/基础/lambda的使用.md	/^##### 匿名内部类[#](#510624)$/;"	T
 协议内容	系统设计/ZooKeeper/ZAB协议.md	/^## 协议内容$/;"	s
+去重操作[#](#78ad62)	java/基础/lambda的使用.md	/^##### 去重操作[#](#78ad62)$/;"	T
 参考	java/基础/线程池.md	/^# 参考$/;"	c
 参考值	java/基础/线程池.md	/^## 参考值$/;"	s
 双亲委托机制	java/JVM/双亲委托机制.md	/^## 双亲委托机制$/;"	s
 反射	java/基础/代理&注解&反射.md	/^# 反射$/;"	c
 团队管理	管理经验/团队.md	/^# 团队管理$/;"	c
 场景优化	面试题目汇总/阿里P7面试.md	/^#### 场景优化$/;"	t
+场景和办法	java/Mysql/实战经验.md	/^### 场景和办法$/;"	S
 场景题	面试题目汇总/阿里P7面试.md	/^## 场景题$/;"	s
 基本类型	java/基础/Java类型.md	/^## 基本类型$/;"	s
 基础	面试题目汇总/阿里P7面试.md	/^#### 基础$/;"	t
@@ -158,45 +213,70 @@ tomcat	framework/tomcat&jetty/README.md	/^## tomcat$/;"	s
 存储引擎	面试题目汇总/阿里P7面试.md	/^#### 存储引擎$/;"	t
 安全	面试题目汇总/阿里P7面试.md	/^## 安全$/;"	s
 定义	java/基础/代理&注解&反射.md	/^### 定义$/;"	S
+定义函数式方法[#](#b342dc)	java/基础/lambda的使用.md	/^##### 定义函数式方法[#](#b342dc)$/;"	T
 容器隔离	java/JVM/双亲委托机制.md	/^##### 容器隔离$/;"	T
 崩溃恢复	系统设计/ZooKeeper/ZAB协议.md	/^## 崩溃恢复$/;"	s
 工具	面试题目汇总/阿里P7面试.md	/^## 工具$/;"	s
 并发	面试题目汇总/阿里P7面试.md	/^#### 并发$/;"	t
 并发包优化	java/基础/java高版本特性.md	/^#### 并发包优化$/;"	t
+并行流计算[#](#3462b5)	java/基础/lambda的使用.md	/^##### 并行流计算[#](#3462b5)$/;"	T
 应用场景	java/基础/代理&注解&反射.md	/^### 应用场景$/;"	S
 开放问题	面试题目汇总/阿里P7面试.md	/^## 开放问题$/;"	s
 引用类型	java/基础/Java类型.md	/^## 引用类型$/;"	s
 得出数据	java/基础/线程池.md	/^## 得出数据$/;"	s
+总结一下 Stream 流的特点[#](#9432b7)	java/基础/lambda的使用.md	/^##### 总结一下 Stream 流的特点[#](#9432b7)$/;"	T
+悲观锁	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^#### 悲观锁$/;"	t
+截取流的前 N 个元素[#](#9250c9)	java/基础/lambda的使用.md	/^##### 截取流的前 N 个元素[#](#9250c9)$/;"	T
 执行/解释	面试题目汇总/阿里P7面试.md	/^#### 执行\/解释$/;"	t
 扩展	java/基础/线程池.md	/^# 扩展$/;"	c
 扩展	面试题目汇总/阿里P7面试.md	/^#### 扩展$/;"	t
 扩展注解的支持	java/基础/java高版本特性.md	/^#### 扩展注解的支持$/;"	t
+排序[#](#c360e9)	java/基础/lambda的使用.md	/^##### 排序[#](#c360e9)$/;"	T
 接口默认方法	java/基础/java高版本特性.md	/^#### 接口默认方法$/;"	t
 文件	java/基础/IO.md	/^# 文件$/;"	c
 更好的类型推测机制	java/基础/java高版本特性.md	/^#### 更好的类型推测机制$/;"	t
 构建社会主义和谐社会	README.md	/^# 构建社会主义和谐社会$/;"	c
 架构	面试题目汇总/阿里P7面试.md	/^#### 架构$/;"	t
+查看停顿–安全点停顿日志	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^##### 查看停顿–安全点停顿日志$/;"	T
 比较	framework/tomcat&jetty/README.md	/^## 比较$/;"	s
+求和[#](#fa599e)	java/基础/lambda的使用.md	/^##### 求和[#](#fa599e)$/;"	T
+求最大值最小值[#](#1113f6)	java/基础/lambda的使用.md	/^##### 求最大值最小值[#](#1113f6)$/;"	T
+泛型	java/基础/泛型.md	/^# 泛型$/;"	c
 注解	java/基础/代理&注解&反射.md	/^# 注解$/;"	c
+测试一：事务隔离级别：RR	java/Mysql/Innodb锁机制：Next-Key Lock 浅谈_数据库_qiuyepiaoling的专栏-CSDN博客.md	/^## 测试一：事务隔离级别：RR$/;"	s
+测试二：	java/Mysql/Innodb锁机制：Next-Key Lock 浅谈_数据库_qiuyepiaoling的专栏-CSDN博客.md	/^## 测试二：$/;"	s
 消息广播	系统设计/ZooKeeper/ZAB协议.md	/^## 消息广播$/;"	s
 热部署，模块化	java/JVM/双亲委托机制.md	/^##### 热部署，模块化$/;"	T
+理解锁的基础知识	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^## 理解锁的基础知识$/;"	s
 破坏双亲委托机制	java/JVM/双亲委托机制.md	/^### 破坏双亲委托机制$/;"	S
 私有接口方法	java/基础/java高版本特性.md	/^#### 私有接口方法$/;"	t
 简介	系统设计/ZooKeeper/ZAB协议.md	/^## 简介$/;"	s
 算法	面试题目汇总/阿里P7面试.md	/^## 算法$/;"	s
 类加载	java/JVM/双亲委托机制.md	/^## 类加载$/;"	s
 系统架构	面试题目汇总/阿里P7面试.md	/^## 系统架构$/;"	s
+索引	java/Mysql/实战经验.md	/^## 索引$/;"	s
 索引	面试题目汇总/阿里P7面试.md	/^#### 索引$/;"	t
 线程池参数	java/基础/线程池.md	/^# 线程池参数$/;"	c
 网络	面试题目汇总/阿里P7面试.md	/^## 网络$/;"	s
 脑裂	系统设计/ZooKeeper/ZAB协议.md	/^### 脑裂$/;"	S
+自旋锁时间阈值	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^#### 自旋锁时间阈值$/;"	t
+自旋锁的优缺点	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^#### 自旋锁的优缺点$/;"	t
+自旋锁的开启	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^#### 自旋锁的开启$/;"	t
+规约计算[#](#225056)	java/基础/lambda的使用.md	/^##### 规约计算[#](#225056)$/;"	T
 计算机基础	面试题目汇总/阿里P7面试.md	/^## 计算机基础$/;"	s
 设计模式	面试题目汇总/阿里P7面试.md	/^## 设计模式$/;"	s
+读取文件[#](#e34255)	java/基础/lambda的使用.md	/^##### 读取文件[#](#e34255)$/;"	T
+跳过流的前 N 个元素[#](#0d5027)	java/基础/lambda的使用.md	/^##### 跳过流的前 N 个元素[#](#0d5027)$/;"	T
+轻量级锁的释放	java/基础/Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 - linghu_java - 博客园.md	/^#### 轻量级锁的释放$/;"	t
+过滤[#](#bb8472)	java/基础/lambda的使用.md	/^##### 过滤[#](#bb8472)$/;"	T
+返回非空值[#](#b47511)	java/基础/lambda的使用.md	/^##### 返回非空值[#](#b47511)$/;"	T
 重复注解	java/基础/java高版本特性.md	/^#### 重复注解$/;"	t
 锁	面试题目汇总/阿里P7面试.md	/^#### 锁$/;"	t
 问题	framework/spring/README.md	/^### 问题$/;"	S
 问题	java/基础/线程池.md	/^## 问题$/;"	s
 问题	消息队列/mafka.md	/^## 问题$/;"	s
 问题列表	java/基础/线程问题.md	/^## 问题列表$/;"	s
+问题：	java/Mysql/Innodb锁机制：Next-Key Lock 浅谈_数据库_qiuyepiaoling的专栏-CSDN博客.md	/^#### 问题：$/;"	t
+集合判空遍历操作[#](#9a78be)	java/基础/lambda的使用.md	/^##### 集合判空遍历操作[#](#9a78be)$/;"	T
 集合相关	面试题目汇总/阿里P7面试.md	/^#### 集合相关$/;"	t
 默认值	java/基础/线程池.md	/^## 默认值$/;"	s
